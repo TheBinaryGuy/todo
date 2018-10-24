@@ -1,0 +1,35 @@
+#formData {
+    width: 50vw;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#taskName {
+    width: 450px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    font-size: 1.4em;
+    border-radius: 25px;
+}
+
+#taskName::placeholder {
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    height: 40px;
+    width: 100px;
+    border: none;
+    background-color: slateblue;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.btn:hover, .btn:active {
+    background-color: rgb(92, 78, 131);
+}

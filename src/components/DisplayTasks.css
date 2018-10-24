@@ -1,0 +1,37 @@
+#tasks {
+    margin: 0;
+    padding: 0;
+    width: 50vw;
+}
+
+.task {
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
+.delete {
+    content: url('../img/Remove.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 24px;
+    margin-left: auto;
+}
+
+.complete {
+    content: url('../img/Checked.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 24px;
+    margin-right: 24px;
+}
+
+.inComplete {
+    content: url('../img/Unchecked.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 24px;
+    margin-right: 24px;
+}
